@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurt Dasal - Creative Partner</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Analytics (GA4) -->
+    <!-- Replace 'G-XXXXXXXXXX' with your actual Measurement ID from Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+
+<body>
+    <div class="site-background">
+        <div class="parallax-glow-wrapper blue-glow-wrapper">
+            <div class="glow-shape shape-1"></div>
+        </div>
+        <div class="glow-shape shape-2"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content animate-on-scroll">
+                    <h1 class="hero-title">
+                        <span class="text-gradient">Turning Raw Footage Into</span><br>
+                        <span class="highlight-green text-scroll">Scroll-Stopping Edits</span>
+                    </h1>
+                    <div class="hero-arrow-container">
+                        <svg class="hero-arrow-svg" width="800" height="400" viewBox="0 0 800 400" fill="none">
+                            <defs>
+                                <mask id="arrowMask">
+                                    <path class="arrow-mask-path" d="M250 150 C 350 -50, 1000 150, 580 340"
+                                        stroke="white" stroke-width="20" fill="none" />
+                                    <path class="head-mask-path" d="M605 315 L 580 340 L 605 365" stroke="white"
+                                        stroke-width="20" fill="none" />
+                                </mask>
+                            </defs>
+                            <!-- Shortened Boomerang -->
+                            <path d="M250 150 C 350 -50, 1000 150, 580 340" stroke="white" stroke-width="2.5"
+                                stroke-dasharray="10 8" stroke-linecap="round" mask="url(#arrowMask)" />
+                            <!-- Smaller Arrowhead -->
+                            <path d="M605 315 L 580 340 L 605 365" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" mask="url(#arrowMask)" />
+                        </svg>
+                    </div>
+                    <p class="hero-subtitle">
+                        Professional video editing that transforms your content into engaging, high-performing videos.
+                        From short-form social media to long-form YouTube content.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Work Together</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-container animate-on-scroll">
+                    <div class="hero-image-group" style="position: relative;">
+                        <div class="hero-image-wrapper">
+                            <img src="assets/headshot_new.jpg" alt="Kurt Dasal" class="hero-headshot">
+                        </div>
+                        <div class="hero-image-glow"></div>
+                        <div class="hero-sticky-note">I'm Kurt</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <!-- Short-Form Category -->
+            <div class="portfolio-category visible" data-category="short-form">
+                <div class="portfolio-carousel-wrapper">
+                    <div class="portfolio-carousel" data-carousel="short-form">
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-1.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-1.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/Shortform-2.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/Shortform-2.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #4C5CFF 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-3.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-3.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #A6FF00 0%, #111111 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-4.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-4.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 50%, #111111 100%);">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-5.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-5.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #A6FF00 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-6.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-6.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #111111 50%, #A6FF00 100%);">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Duplicate items for seamless loop -->
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-1.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-1.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-2.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-2.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #4C5CFF 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-4.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-4.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 50%, #111111 100%);">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-5.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-5.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #A6FF00 100%);"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item is-visible" data-category="short-form" data-video-type="local"
+                            data-video-src="assets/shortform-6.mp4">
+                            <div class="portfolio-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/shortform-6.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #111111 50%, #A6FF00 100%);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Long-Form Category -->
+            <div class="portfolio-category" data-category="long-form">
+
+                <div class="portfolio-carousel-wrapper">
+                    <div class="portfolio-carousel" data-carousel="long-form">
+                        <div class="portfolio-item youtube-style animate-on-scroll" data-category="long-form"
+                            data-video-type="local" data-video-src="assets/longform-1.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-1.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #A6FF00 0%, #4C5CFF 100%);"></div>
+                                <!-- YouTube UI Elements -->
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style animate-on-scroll" data-category="long-form"
+                            data-video-type="local" data-video-src="assets/longform-2.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-2.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #111111 100%);"></div>
+                                <!-- YouTube UI Elements -->
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style animate-on-scroll" data-category="long-form"
+                            data-video-type="local" data-video-src="assets/longform-3.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-3.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #A6FF00 100%);"></div>
+                                <!-- YouTube UI Elements -->
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style animate-on-scroll" data-category="long-form"
+                            data-video-type="local" data-video-src="assets/longform-4.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-4.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 100%);"></div>
+                                <!-- YouTube UI Elements -->
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Duplicate items for seamless loop -->
+                        <div class="portfolio-item youtube-style" data-category="long-form" data-video-type="local"
+                            data-video-src="assets/longform-1.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-1.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #A6FF00 0%, #4C5CFF 100%);"></div>
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style" data-category="long-form" data-video-type="local"
+                            data-video-src="assets/longform-2.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-2.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #111111 100%);"></div>
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style" data-category="long-form" data-video-type="local"
+                            data-video-src="assets/longform-3.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-3.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #111111 0%, #A6FF00 100%);"></div>
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item youtube-style" data-category="long-form" data-video-type="local"
+                            data-video-src="assets/longform-4.mp4">
+                            <div class="portfolio-thumbnail youtube-thumbnail">
+                                <video autoplay loop muted playsinline>
+                                    <source src="assets/longform-4.mp4" type="video/mp4">
+                                </video>
+                                <div class="thumbnail-placeholder"
+                                    style="background: linear-gradient(135deg, #4C5CFF 0%, #A6FF00 100%);"></div>
+                                <div class="youtube-ui">
+                                    <div class="youtube-top-bar">
+
+
+
+                                    </div>
+                                    <div class="youtube-play-button">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.63-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+                                                fill="#f00" />
+                                            <path d="M 45,24 27,14 27,34" fill="#fff" />
+                                        </svg>
+                                    </div>
+                                    <div class="youtube-watch-button">Play Full Video</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">🎬</div>
+                    <h3 class="service-title">Short-Form Editing</h3>
+                    <p class="service-description">TikTok, Reels, and YouTube Shorts optimized for maximum engagement
+                    </p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">📺</div>
+                    <h3 class="service-title">YouTube Long-Form</h3>
+                    <p class="service-description">Full-length videos with pacing, storytelling, and retention
+                        optimization</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">⚡</div>
+                    <h3 class="service-title">Reels & TikTok</h3>
+                    <p class="service-description">Viral-ready content with trending hooks and seamless transitions</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title">Motion Graphics</h3>
+                    <p class="service-description">Custom animations, lower thirds, and dynamic visual effects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What Clients <span class="highlight-green">Say</span></h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">
+                        Kurt transformed our raw footage into viral content. The editing quality and attention to detail
+                        is unmatched. Our engagement rates doubled after working with him.
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Sarah Chen</strong>
+                        <span>Content Creator</span>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">
+                        Professional, fast, and creative. Kurt understands what makes content perform.
+                        Every video he edits exceeds our expectations.
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Marcus Johnson</strong>
+                        <span>YouTube Channel Owner</span>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">
+                        The best investment we made for our brand. Kurt's edits don't just look good—they convert.
+                        Highly recommend for any serious content creator.
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Alex Rivera</strong>
+                        <span>Brand Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2 class="cta-title">Ready to <span class="highlight-green">Level Up</span> Your Content?</h2>
+                <p class="cta-subtitle">
+                    Let's create videos that stop the scroll and drive real results.
+                </p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kurtdasal@gmail.com&su=Video%20Editing%20Inquiry&body=Hi%20Kurt,%0D%0A%0D%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.%0D%0A%0D%0AProject%20Type%20(Place%20'x'%20in%20brackets):%0D%0A[%20]%20Short-Form%20(TikTok/Reels)%0D%0A[%20]%20Long-Form%20(YouTube)"
+                    target="_blank" class="btn btn-primary btn-large">Let's Work Together</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Frequently Asked <span class="highlight-green">Questions</span>
+            </h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's your typical turnaround time?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Turnaround time depends on the project scope. Short-form content (30-60 seconds) typically
+                            takes 2-3 business days, while long-form videos (10+ minutes) usually take 5-7 business
+                            days. Rush orders are available for an additional fee.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What file formats do you accept?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I accept all common video formats including MP4, MOV, AVI, and ProRes. For raw footage, I can
+                            work with files from most professional cameras. Just send me your files via Google Drive,
+                            Dropbox, or WeTransfer.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide revisions?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! All projects include 2 rounds of revisions to ensure the final product meets your
+                            vision. Additional revisions are available at an hourly rate. I'll work closely with you
+                            until you're completely satisfied.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's included in your editing service?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>My editing service includes color grading, audio mixing, transitions, motion graphics, text
+                            overlays, and platform-specific optimization. I also provide thumbnail design and can help
+                            with video strategy and optimization tips.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do you handle project communication?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I maintain clear communication throughout the project via email, and we can schedule video
+                            calls if needed. You'll receive regular updates and can provide feedback at any stage. I'm
+                            responsive and typically reply within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are your payment terms?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I require a 50% deposit to start work, with the remaining 50% due upon project completion.
+                            Payments can be made via bank transfer, PayPal, or other agreed-upon methods. All pricing is
+                            discussed upfront with no hidden fees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content animate-on-scroll">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Kurt Dasal</h3>
+                    <p class="footer-tagline">Creative Partner</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kurtdasal@gmail.com&su=Video%20Editing%20Inquiry&body=Hi%20Kurt,%0D%0A%0D%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.%0D%0A%0D%0AProject%20Type%20(Place%20'x'%20in%20brackets):%0D%0A[%20]%20Short-Form%20(TikTok/Reels)%0D%0A[%20]%20Long-Form%20(YouTube)"
+                        target="_blank" class="footer-link" aria-label="Email" data-tooltip="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" />
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/639995919355" target="_blank" class="footer-link" aria-label="WhatsApp"
+                        data-tooltip="WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M16.53 14.33C16.29 14.21 15.08 13.61 14.86 13.54C14.63 13.45 14.46 13.42 14.3 13.67C14.13 13.92 13.66 14.47 13.52 14.63C13.38 14.79 13.25 14.81 13 14.69C12.77 14.57 12 14.31 11.1 13.51C10.4 12.89 9.93 12.12 9.8 11.9C9.67 11.66 9.79 11.55 9.91 11.43C10 11.32 10.15 11.15 10.27 11.01C10.4 10.87 10.43 10.76 10.52 10.59C10.61 10.42 10.56 10.27 10.5 10.14C10.44 10.01 9.95 8.81 9.75 8.32C9.55 7.84 9.35 7.91 9.21 7.91C9.09 7.91 8.94 7.91 8.79 7.91C8.64 7.91 8.39 7.97 8.18 8.2C7.97 8.43 7.37 9 7.37 10.13C7.37 11.26 8.2 12.35 8.31 12.51C8.42 12.65 10 15.08 12.42 16.13C14 16.82 14.6 16.74 15.44 16.62C16.37 16.48 18.26 15.48 18.66 14.37C19.05 13.26 19.05 12.31 18.94 12.12C18.83 11.94 18.68 11.84 18.45 11.72 L16.53 14.33Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/kurtmdasal/" target="_blank" class="footer-link"
+                        aria-label="Instagram" data-tooltip="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 19.4 19.4 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2ZM7.6 4C5.6 4 4 5.6 4 7.6V16.4C4 18.4 5.6 20 7.6 20H16.4C18.4 20 20 18.4 20 16.4V7.6C20 5.6 18.4 4 16.4 4H7.6ZM12 7C14.8 7 17 9.2 17 12C17 14.8 14.8 17 12 17C9.2 17 7 14.8 7 12C7 9.2 9.2 7 12 7ZM12 9C10.3 9 9 10.3 9 12C9 13.7 10.3 15 12 15C13.7 15 15 13.7 15 12C15 10.3 13.7 9 12 9ZM17.25 5.5C17.94 5.5 18.5 6.06 18.5 6.75C18.5 7.44 17.94 8 17.25 8C16.56 8 16 7.44 16 6.75C16 6.06 16.56 5.5 17.25 5.5Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@KurtMDasal" target="_blank" class="footer-link"
+                        aria-label="YouTube" data-tooltip="YouTube">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M21.58 7.16C21.32 6.19 20.57 5.43 19.61 5.17C17.86 4.7 12 4.7 12 4.7C12 4.7 6.14 4.7 4.39 5.17C3.43 5.43 2.67 6.19 2.42 7.16C1.95 8.9 1.95 12.5 1.95 12.5C1.95 12.5 1.95 16.1 2.42 17.84C2.67 18.81 3.43 19.57 4.39 19.83C6.14 20.3 12 20.3 12 20.3C12 20.3 17.86 20.3 19.61 19.83C20.57 19.57 21.32 18.81 21.58 17.84C22.05 16.1 22.05 12.5 22.05 12.5C22.05 12.5 22.05 8.9 21.58 7.16ZM9.75 15.34V9.67L14.75 12.5L9.75 15.34Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~0177f8150188c18e56?mp_source=share" target="_blank"
+                        class="footer-link" aria-label="Upwork" data-tooltip="Upwork">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.455-2.531 2.455-1.406 0-2.579-1.17-2.579-2.579V3.125H.11V12.44c0 2.703 2.204 4.885 4.885 4.885 2.14 0 3.966-1.353 4.67-3.235a12.72 12.72 0 0 1 2.213 3.671L10.35 20.875h2.625l1.096-3.414c1.1.815 2.502 1.303 4.49 1.303 3.398 0 5.328-2.031 5.328-5.41V7.812c-.001-2.433-2.316-2.794-5.328-2.794z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amiel-kurt-menard-dasal-4a3272168/" target="_blank"
+                        class="footer-link" aria-label="LinkedIn" data-tooltip="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.26 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kurt Dasal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal -->
+    <div class="modal" id="portfolioModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <div class="modal-video" id="modalVideoContainer">
+                    <!-- Dynamic video/iframe injected here -->
+                </div>
+                <div class="modal-info">
+                    <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                    <div class="modal-meta">
+                        <span class="modal-tag" id="modalTag">Category</span>
+                        <span class="modal-role" id="modalRole">Role: Editor</span>
+                        <span class="modal-platform" id="modalPlatform">Platform: YouTube</span>
+                    </div>
+                    <div class="modal-details">
+                        <h4>Editing Work:</h4>
+                        <ul id="modalList">
+                            <li>Color grading and correction</li>
+                            <li>Motion graphics and transitions</li>
+                            <li>Audio mixing and enhancement</li>
+                            <li>Optimized for platform specifications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky CTA -->
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kurtdasal@gmail.com&su=Video%20Editing%20Inquiry&body=Hi%20Kurt,%0D%0A%0D%0AI%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project.%0D%0A%0D%0AProject%20Type%20(Place%20'x'%20in%20brackets):%0D%0A[%20]%20Short-Form%20(TikTok/Reels)%0D%0A[%20]%20Long-Form%20(YouTube)"
+        target="_blank" class="sticky-cta" aria-label="Get in Touch" data-tooltip="Get in touch">
+        <span class="sticky-cta-inner">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" />
+            </svg>
+        </span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
