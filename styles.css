@@ -1503,7 +1503,7 @@ h1.hero-title {
     }
 
     .modal-video.short-form {
-        max-width: 45%;
+        max-width: 40%;
         width: 100%;
     }
 
@@ -1535,8 +1535,8 @@ h1.hero-title {
 
     .modal-content {
         padding: 30px 20px;
-        width: 100%;
-        max-width: 100%;
+        width: 110%;
+        max-width: 110%;
     }
 
     .footer-content {
