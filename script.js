@@ -294,39 +294,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // ============================================
-    // LAZY LOAD VIDEO GRID (Performance Optimization)
-    // ============================================
-    // Only play videos when they are actually visible on screen
-    const videoObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            const video = entry.target;
-
-            if (entry.isIntersecting) {
-                // Video is visible: Play it
-                // We use a promise to handle occasional play() errors
-                const playPromise = video.play();
-                if (playPromise !== undefined) {
-                    playPromise.catch(error => {
-                        // Auto-play was prevented (often low power mode)
-                        // This is fine, we just stay paused
-                    });
-                }
-            } else {
-                // Video is not visible: Pause it to save CPU/Battery
-                video.pause();
-            }
-        });
-    }, {
-        threshold: 0.2, // Trigger when 20% of the video is visible
-        rootMargin: "50px 0px" // Start loading slightly before it scrolls into view
-    });
-
-    // Attach observer to all lazy videos
-    document.querySelectorAll('.lazy-video').forEach(video => {
-        videoObserver.observe(video);
-    });
-
-    // ============================================
     // NAVBAR SCROLL EFFECT (if needed in future)
     // ============================================
 
