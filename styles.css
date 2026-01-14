@@ -1492,8 +1492,19 @@ h1.hero-title {
         max-width: 100%;
     }
 
+    .hero-subtitle {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .hero-cta {
         justify-content: center;
+    }
+
+    .modal-video.short-form {
+        max-width: 90%;
+        width: 100%;
     }
 
     .hero-image-container {
