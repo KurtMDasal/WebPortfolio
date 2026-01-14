@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function () {
             };
 
             // Handle Modal UI based on category
-            if (category === 'long-form') {
+            if (category === 'long-form' || category === 'short-form') {
                 modal.classList.add('hide-info');
             } else {
                 modal.classList.remove('hide-info');
